@@ -1,4 +1,3 @@
-
 import PageHeader from "./components/PageHeader";
 //import SearchBar from "./components/SearchBar";
 import NameDisplay from "./components/NameDisplay";
@@ -10,8 +9,8 @@ function App(): JSX.Element {
       <PageHeader />
       {/* <SearchBar /> */}
       {NameDisplay}
-      <PageFooter/>
+      <PageFooter />
     </>
-  )
+  );
 }
 export default App;
