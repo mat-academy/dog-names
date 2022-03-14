@@ -11,7 +11,7 @@ function App(): JSX.Element {
     <>
       <PageHeader />
       {SearchBar}
-      <p className= "list">{names}</p>
+      <p className="list">{names}</p>
       <PageFooter />
     </>
   );
