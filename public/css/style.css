@@ -1,0 +1,123 @@
+import NameDisplay from "././src/components/NameDisplay"; 
+
+body {
+    margin: 0
+    align-items: center;
+}
+
+/* html {
+    background-color: rgb(255, 233, 233);
+    text-align: center;
+    font-family: "helvetica", sans-serif;
+} */
+
+main {
+    background-color: rgb(255, 255, 255);
+    align-items: center; 
+}
+
+h1 {
+    background-color: rgb(255, 200, 200);
+    font-family: "helvetica", sans-serif;
+    align-items: center; 
+}
+
+p {
+    background-color: rgb(255, 255, 233);
+    font-family: "helvetica", sans-serif;
+    /* a[props.sex="m"]{color: red;}
+    a[props.sex="f"] {color: green;}
+    a[props.sex="n"] {color: yellow;} */
+    text-align: center;
+    border-style: solid;
+    width: 150px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;   
+}
+
+footer {
+    text-align: center;
+}
+
+.list {
+    background-color: rgb(255, 255, 233);
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: center;
+    align-items: center; 
+    align-content: space-around;
+    margin: 50px;
+    padding: 20px
+}
+
+/* 
+h1 {
+    background-color: rgb(142,169,200);
+    color: rgb(48,62,105);
+    font-family: "helvetica", sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:  rgb(48,62,105);
+}
+h2 {
+    color: rgb(137, 0, 0);
+    font-family: "helvetica", sans-serif;
+    text-align: center;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
+h3 {
+    color: rgb(194,117,117);
+    font-family: "helvetica", sans-serif;
+    font-weight: lighter;
+    text-align: right;
+    padding-right: 24%
+}
+h4 {
+    color: rgb(0,0,5);
+    font-family: "helvetica", sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: right;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-bottom: 30px;
+}
+p {
+    color: rgb(255,107,107);
+    font-family: "helvetica", sans-serif;
+    font-weight: lighter;
+}
+
+.images {
+    width: 50%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 15px;
+    border-color: rgb(142,169,200);
+}
+
+
+
+.anchorformat {
+        color: rgb(0, 0, 0)
+} */
