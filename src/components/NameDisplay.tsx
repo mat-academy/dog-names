@@ -7,7 +7,7 @@ interface NameDataProps {
 function NameEntry(props: NameDataProps): JSX.Element {
   return (
     <main>
-      <p>{props.name}, {props.sex}, {props.name}, {props.sex}</p>
+      <p>{props.name}</p>
     </main>
   );
 }
